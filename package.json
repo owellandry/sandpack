@@ -1,6 +1,6 @@
 {
   "name": "@nerd/sandpack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "workspaces": [
     "sandpack-client",
     "sandpack-react",
