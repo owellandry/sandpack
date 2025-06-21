@@ -196,6 +196,7 @@ export class SandpackStatic extends SandpackClient {
 
     this.status = "done";
     this.dispatch({ type: "done", compilatonError: false });
+    this.dispatch({ type: "compiled" });
     this.dispatch({
       type: "urlchange",
       url: previewUrl,
