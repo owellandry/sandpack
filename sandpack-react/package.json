@@ -34,11 +34,11 @@
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "prebuild": "yarn run clean",
+    "prebuild": "pnpm run clean",
     "test": "TEST_ENV=true jest . --transformIgnorePatterns \"node_modules/(?!@codemirror)/\" --modulePathIgnorePatterns \"e2e\"",
     "lint": "eslint '**/*.ts?(x)' --fix",
     "build": "rollup -c",
-    "build:publish": "yarn build",
+    "build:publish": "pnpm run build",
     "dev": "storybook dev -p 6006 --quiet",
     "typecheck": "tsc",
     "format": "prettier --write '**/*.{ts,tsx,js,jsx}'",
