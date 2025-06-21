@@ -1,0 +1,5 @@
+packages:
+  - sandpack-client
+  - sandpack-react
+  - sandpack-themes
+  - website/*
