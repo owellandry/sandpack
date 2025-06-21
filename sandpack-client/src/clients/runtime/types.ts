@@ -46,6 +46,7 @@ export type SandpackRuntimeMessage = BaseSandpackMessage &
         type: "done";
         compilatonError: boolean;
       }
+    | { type: "compiled" }
     | {
         type: "urlchange";
         url: string;

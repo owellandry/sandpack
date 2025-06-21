@@ -118,6 +118,7 @@ export class SandpackNode extends SandpackClient {
       });
 
       this.dispatch({ type: "done", compilatonError: true });
+      this.dispatch({ type: "compiled" });
     }
   }
 
@@ -237,6 +238,7 @@ export class SandpackNode extends SandpackClient {
   private dispatchDoneMessage(): void {
     this.status = "done";
     this.dispatch({ type: "done", compilatonError: false });
+    this.dispatch({ type: "compiled" });
 
     if (this.iframePreviewUrl) {
       this.dispatch({

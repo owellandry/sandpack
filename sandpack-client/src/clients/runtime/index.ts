@@ -145,6 +145,10 @@ export class SandpackRuntime extends SandpackClient {
             this.status = "done";
             break;
           }
+          case "compiled": {
+            this.status = "done";
+            break;
+          }
           case "state": {
             this.bundlerState = mes.state;
             break;

@@ -14,7 +14,8 @@ type SandpackStandartMessages =
   | {
       type: "done";
       compilatonError: boolean;
-    };
+    }
+  | { type: "compiled" };
 
 type SandpackBundlerMessages =
   | {
