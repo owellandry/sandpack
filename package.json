@@ -29,9 +29,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codesandbox/sandpack"
+    "url": "https://github.com/owellandry/sandpack"
   },
-  "author": "CodeSandbox",
+  "author": "owellandry",
   "license": "Apache-2.0",
   "devDependencies": {
     "@babel/preset-env": "^7.16.5",
