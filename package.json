@@ -1,7 +1,7 @@
 {
   "name": "@nerd/sandpack",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "workspaces": [
     "sandpack-client",
     "sandpack-react",
